@@ -1,6 +1,67 @@
 body {
   background: rgb(134, 178, 219);
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: rgb(61, 60, 60);
+}
+
+.title {
+  font-size: 15em;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+h3 {
+  padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25en 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+}
+
+
+.date {
+  color: rgb(190, 222, 241);
+}
+
+#description {
+  margin: 1.5em 0.2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #06d6a0;
+}
+
+.schoolButton {
+  background-color: #f6cf85;
+}
+
+.schoolButton:hover {
+  background-color: #f6cf85;
+}
+
+@media only screen and (max-width: 1700px){
+  .vertical-timeline-element {
+    display: block !important;
+    float: none !important;
+    color: rgb(46, 45, 45);
+    margin-top: 1.5em;
+  }
+
+  .title {
+    font-size: 8em;
+  }
 }
