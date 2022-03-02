@@ -1,30 +1,30 @@
-import "./App.css";
-import { ReactComponent as WorkIcon } from "./work.svg";
-import { ReactComponent as SchoolIcon } from "./school.svg";
+import './App.css';
+import { ReactComponent as WorkIcon } from './work.svg';
+import { ReactComponent as SchoolIcon } from './school.svg';
 
-import timelineElements from "./timelineElements";
+import timelineElements from './timelineElements';
 
 import {
   VerticalTimeline,
   VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+} from 'react-vertical-timeline-component';
 
-import "react-vertical-timeline-component/style.min.css";
+import 'react-vertical-timeline-component/style.min.css';
 
 function App() {
-  let workIconStyles = { background: "#06D6A0" };
-  let schoolIconStyles = { background: "#f9c74f" };
+  let workIconStyles = { background: '#06D6A0' };
+  let schoolIconStyles = { background: '#f9c74f' };
 
   return (
     <div>
       <h1 className="title">Timeline</h1>
       <VerticalTimeline>
         {timelineElements.map((element) => {
-          let isWorkIcon = element.icon === "work";
+          let isWorkIcon = element.icon === 'work';
           let showButton =
             element.buttonText !== undefined &&
             element.buttonText !== null &&
-            element.buttonText !== "";
+            element.buttonText !== '';
 
           return (
             <VerticalTimelineElement
@@ -44,10 +44,11 @@ function App() {
               {showButton && (
                 <a
                   className={`button ${
-                    isWorkIcon ? "workButton" : "schoolButton"
+                    isWorkIcon ? 'workButton' : 'schoolButton'
                   }`}
-                  href="/"
+                  href={element.link} target="_blank" rel="noopener noreferrer"
                 >
+                  
                   {element.buttonText}
                 </a>
               )}

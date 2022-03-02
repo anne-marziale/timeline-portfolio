@@ -1,63 +1,80 @@
 let timelineElements = [
-    {
-      id: 1,
-      title: "Frontend Developer",
-      location: "Dragontail, Ascana",
-      description:
-        "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-      buttonText: "View Frontend Projects",
-      date: "August 2016 - present",
-      icon: "work",
-    },
-    {
-      id: 2,
-      title: "Backend Developer",
-      location: "Skystead, Craonia",
-      description:
-        "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-      buttonText: "View Backend Projects",
-      date: "June 2013 - August 2016",
-      icon: "work",
-    },
-    {
-      id: 3,
-      title: "Quality Assurance Engineer",
-      location: "South Warren, Geshington",
-      description:
-        "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
-      buttonText: "Company Website",
-      date: "September 2011 - June 2013",
-      icon: "work",
-    },
-    {
-      id: 4,
-      title: "Oak Ridge College",
-      location: "South Warren, Geshington",
-      description:
-        "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-      buttonText: "Course Certificate",
-      date: "September 2011",
-      icon: "school",
-    },
-    {
-      id: 5,
-      title: "Hawking College",
-      location: "Skystead, Craonia",
-      description:
-        "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-      buttonText: "College Projects",
-      date: "2007 - 2011",
-      icon: "school",
-    },
-    {
-      id: 6,
-      title: "Marble Hills Grammar School",
-      location: "Dragontail, Ascana",
-      description:
-        "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-      date: "2003 - 2007",
-      icon: "school",
-    },
-  ];
-  
-  export default timelineElements;
+  {
+    id: 1,
+    title: "Page d'accueil JavaScript",
+    location: "Projet personnel",
+    description:
+      "Création d'une page d'accueil HTML/CSS. Utilisation de JavaScript notamment des DOM pour les animations" ,
+    buttonText: 'Voir Projet',
+    link: 'https://javascript-homepage.netlify.app/',
+    date: '01/03/2022',
+    icon: 'work',
+  },
+  {
+    id: 2,
+    title: 'AngryBird Replica',
+    location: 'Projet personnel',
+    description:
+      "Réplique du jeu AngryBird réalisé sur la plateforme Unity avec C#.",
+    buttonText: "Voir Projet",
+    link: 'https://simmer.io/@AnneMarziale/angrybirdsreplica',
+    date: 'Octobre 2021',
+    icon: 'work',
+  },
+  {
+    id: 3,
+    title: 'Portfolio',
+    location: 'Projet personnel',
+    description:
+      "Création d'un portfolio en ligne responsive en ReactJS.",
+    buttonText: "Voir Projet",
+    link: 'https://anne-marziale-portfolio.netlify.app/',
+    date: 'Octobre 2021',
+    icon: 'work',
+  },
+  {
+    id: 4,
+    title: 'Cine Plus',
+    location: 'Projet personnel',
+    description:
+    "Création d'un site de service de vidéos à la demande en utilisant une API. Réalisé avec ReactJS/CSS.",
+    buttonText: 'Voir Projet',
+    link: 'https://javascript-homepage.netlify.app/',
+    date: 'Septembre 2021',
+    icon: 'work',
+  },
+  {
+    id: 5,
+    title: 'Hackathon : Les résistants!',
+    location: 'Wild Code School',
+    description:
+      "Création d'un site web de résistant sous le thème de la Second Guerre Mondiale en ReactJS réalisé lors d'un Hackathon de 24heures en équipe.",
+    buttonText: 'Voir Projet',
+    link: 'https://les-resistants.netlify.app/',
+    date: 'Aout 2021',
+    icon: 'school',
+  },
+  {
+    id: 6,
+    title: 'CV Anne Marziale',
+    location: 'Projet personnel',
+    description:
+      "Réalisation d'un CV responsive avec React/CSS.",
+      buttonText: 'Voir Projet',
+      link: 'https://anne-cv.netlify.app/',
+    date: 'Aout 2021',
+    icon: 'work',
+  },
+  {
+    id: 7,
+    title: "CV d'un personnage fictif : Voldemort",
+    location: 'Wild Code School',
+    description: "Projet 1 | Wild Code School | Création d'un premier site web sous forme de CV responsive d'un personnage fictif en 3 semaines en HTML/CSS/JAVASCRIPT.",
+    buttonText: 'Voir Projet',
+    link: 'https://cv-tom-jedusor.netlify.app/',
+    date: 'Juin 2021',
+    icon: 'school',
+  },
+];
+
+export default timelineElements;

@@ -1,14 +1,14 @@
 body {
-  background: rgb(134, 178, 219);
-  font-family: 'Montserrat', sans-serif;
+  background: #92b6c8;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  color: rgb(61, 60, 60);
+  color: rgb(53, 53, 53);
 }
 
 .title {
   font-size: 15em;
   text-align: center;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 h3 {
@@ -16,18 +16,17 @@ h3 {
 }
 
 .vertical-timeline-element-content {
-  box-shadow: 0 0.25en 0.5em 0 rgba(0, 0, 0, 0.25),
-    0 0.4em 1.25 0 rgba(0, 0, 0, 0.15) !important;
-    padding: 2em 3em !important;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
 }
 
-
 .date {
-  color: rgb(190, 222, 241);
+  color: rgb(201, 251, 255);
 }
 
 #description {
-  margin: 1.5em 0.2em 0;
+  margin: 1.5em 0 2em 0;
 }
 
 .button {
@@ -38,30 +37,30 @@ h3 {
 }
 
 .workButton {
-  background-color: #06d6a0;
+  background-color: #5cc0b8;
 }
 
 .workButton:hover {
-  background-color: #06d6a0;
+  background-color: #087269;
 }
 
 .schoolButton {
-  background-color: #f6cf85;
+  background-color: #f6c757;
 }
 
 .schoolButton:hover {
-  background-color: #f6cf85;
+  background-color: #db9e0e;
 }
 
-@media only screen and (max-width: 1700px){
-  .vertical-timeline-element {
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
     display: block !important;
     float: none !important;
-    color: rgb(46, 45, 45);
+    color: rgb(44, 44, 44);
     margin-top: 1.5em;
   }
 
   .title {
-    font-size: 8em;
+    font-size: 6em;
   }
 }
