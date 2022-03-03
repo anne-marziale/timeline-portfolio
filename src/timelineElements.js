@@ -4,7 +4,7 @@ let timelineElements = [
     title: "Space 3D website",
     location: "Projet personnel",
     description:
-      "Création d'un site avec Three.js et vite pour avoir des animations en 3D " ,
+      "Création d'un site avec Three.js et Vite pour avoir des animations en 3D " ,
     buttonText: 'Voir Projet',
     link: 'https://space-3d.netlify.app/',
     date: '03/03/2022',
