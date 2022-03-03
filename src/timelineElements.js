@@ -1,10 +1,21 @@
 let timelineElements = [
   {
     id: 1,
+    title: "Space 3D website",
+    location: "Projet personnel",
+    description:
+      "Création d'un site avec Three.js et vite pour avoir des animations en 3D " ,
+    buttonText: 'Voir Projet',
+    link: 'https://space-3d.netlify.app/',
+    date: '03/03/2022',
+    icon: 'work',
+  },
+  {
+    id: 1,
     title: "Page d'accueil JavaScript",
     location: "Projet personnel",
     description:
-      "Création d'une page d'accueil HTML/CSS. Utilisation de JavaScript notamment des DOM pour les animations" ,
+      "Création d'une page d'accueil HTML/CSS et GSAP. Utilisation de JavaScript notamment des DOM pour les animations" ,
     buttonText: 'Voir Projet',
     link: 'https://javascript-homepage.netlify.app/',
     date: '01/03/2022',
