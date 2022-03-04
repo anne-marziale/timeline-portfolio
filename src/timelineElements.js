@@ -11,7 +11,7 @@ let timelineElements = [
     icon: 'work',
   },
   {
-    id: 1,
+    id: 2,
     title: 'Space 3D website',
     location: 'Projet personnel',
     description:
@@ -22,7 +22,7 @@ let timelineElements = [
     icon: 'work',
   },
   {
-    id: 1,
+    id: 3,
     title: "Page d'accueil JavaScript",
     location: 'Projet personnel',
     description:
@@ -33,7 +33,7 @@ let timelineElements = [
     icon: 'work',
   },
   {
-    id: 2,
+    id: 4,
     title: 'AngryBird Replica',
     location: 'Projet personnel',
     description:
@@ -44,7 +44,7 @@ let timelineElements = [
     icon: 'work',
   },
   {
-    id: 3,
+    id: 5,
     title: 'Portfolio',
     location: 'Projet personnel',
     description: "Création d'un portfolio en ligne responsive en ReactJS.",
@@ -54,7 +54,7 @@ let timelineElements = [
     icon: 'work',
   },
   {
-    id: 4,
+    id: 6,
     title: 'Cine Plus',
     location: 'Projet personnel',
     description:
@@ -65,7 +65,7 @@ let timelineElements = [
     icon: 'work',
   },
   {
-    id: 5,
+    id: 7,
     title: 'Hackathon : Les résistants!',
     location: 'Wild Code School',
     description:
@@ -76,7 +76,7 @@ let timelineElements = [
     icon: 'school',
   },
   {
-    id: 6,
+    id: 8,
     title: 'CV Anne Marziale',
     location: 'Projet personnel',
     description: "Réalisation d'un CV responsive avec React/CSS.",
@@ -86,7 +86,7 @@ let timelineElements = [
     icon: 'work',
   },
   {
-    id: 7,
+    id: 9,
     title: "CV d'un personnage fictif : Voldemort",
     location: 'Wild Code School',
     description:
