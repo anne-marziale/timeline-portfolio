@@ -1,6 +1,17 @@
 let timelineElements = [
   {
     id: 1,
+    title: 'Quiz app',
+    location: 'Projet personnel',
+    description:
+      "Création d'un quiz de 4 questions avec JavaScript ",
+    buttonText: 'Voir Projet',
+    link: 'https://anne-quiz-app.netlify.app/',
+    date: '05/03/2022',
+    icon: 'work',
+  },
+  {
+    id: 1,
     title: 'Raindrops effects',
     location: 'Projet personnel',
     description:
